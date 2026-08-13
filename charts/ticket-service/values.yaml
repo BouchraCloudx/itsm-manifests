@@ -13,6 +13,7 @@ env:
   DATABASE_URL: "postgresql://ticket_user:ticket_pass@ticket-postgres:5432/ticket_db?schema=public"
   NOTIFICATION_SERVICE_URL: "http://notification-service:3004"
   AUTH_SERVICE_URL: "http://auth-service:3001"
+  RABBITMQ_URL: "amqp://itsm_user:itsm_pass@rabbitmq:5672"
 
 jwtSecretName: jwt-secret
 jwtSecretKey: JWT_SECRET
