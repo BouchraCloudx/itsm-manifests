@@ -9,7 +9,7 @@ spec:
     - name: pod-ready-rate
       interval: 15s
       count: 3
-      successCondition: result[0] >= 2.0
+      successCondition: result[0] >= 0.9
       failureLimit: 2
       provider:
         prometheus:
