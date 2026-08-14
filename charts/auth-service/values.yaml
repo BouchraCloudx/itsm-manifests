@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: itsm-platform-auth-service
-  tag: v3-broken
+  tag: v2
   pullPolicy: IfNotPresent
 
 service:
