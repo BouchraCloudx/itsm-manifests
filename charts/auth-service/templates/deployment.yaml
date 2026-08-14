@@ -60,5 +60,3 @@ spec:
               port: {{ .Values.healthCheck.port }}
             initialDelaySeconds: 15
             periodSeconds: 20
-EOF
-
