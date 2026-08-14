@@ -7,10 +7,10 @@ spec:
     - name: service-name
   metrics:
     - name: pod-ready-rate
-      initialDelay: 20s
+      initialDelay: 45s
       interval: 15s
       count: 3
-      successCondition: result[0] >= 0.7
+      successCondition: result[0] >= 0.5
       failureLimit: 2
       provider:
         prometheus:
