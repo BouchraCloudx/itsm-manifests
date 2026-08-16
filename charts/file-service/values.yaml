@@ -14,6 +14,7 @@ env:
   MINIO_ACCESS_KEY: "itsm_minio"
   MINIO_SECRET_KEY: "itsm_minio_pass"
   MINIO_BUCKET: "ticket-attachments"
+  TICKET_SERVICE_URL: "http://ticket-service:3002"
 
 jwtSecretName: jwt-secret
 jwtSecretKey: JWT_SECRET
